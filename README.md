@@ -89,4 +89,4 @@ samtools view -h ./input.bam | ./max1000N | samtools view -bS > filtered_output.
 
 # Other types of filter
 
-You can find some inspiration for more advanced filters [in the cigarfilter wiki page][https://github.com/GDelevoye/cigarfilter/wiki/4.-Create-your-own-filters)
+You can find some inspiration for more advanced filters [in the cigarfilter wiki page](https://github.com/GDelevoye/cigarfilter/wiki/4.-Create-your-own-filters)
