@@ -85,3 +85,8 @@ samtools view -h ./input.bam | ./max1000N | samtools view -bS > filtered_output.
 
 - The .bam file is assumed to be correct, and have more than 5 fields. No checking is made
 - If your .bam is incorrect, you can have "core dump (segmentation fault)" errors, because it counts the number of tabs (i.e '\n') in each line to take the right CIGAR field
+
+
+# Other types of filter
+
+You can find some inspiration for more advanced filters [in the cigarfilter wiki page][https://github.com/GDelevoye/cigarfilter/wiki/4.-Create-your-own-filters)
