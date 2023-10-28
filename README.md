@@ -79,7 +79,7 @@ delevoye@Dell-G15-5530:~/GitHub/minimal_1000N$
 
 ```bash
 samtools view -h ./input.bam | ./max1000N | samtools view -bS > filtered_output.bam
-```bash
+```
 
 # Important notes
 
